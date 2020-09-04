@@ -1,42 +1,68 @@
+<!--Copyright © 2020 Unique Developers-->
+<!--Special thanks to Ashwin Paudel-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>[Extension Name] - Unique Extension</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Calculator - Unique Extension</title>
+    <link rel="shortcut icon" type="image/jpg" href="../favicon_io/favicon.ico"/>
     <link rel="stylesheet" href="../CSS/Extensions.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
 </head>
 <body>
+<div class="topnav" id="myTopnav">
+    <a href="../index.html">Home</a>
+    <a href="#news">Create an Extension</a>
+    <a href="#contact">Report Extension</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 <h1>Calculator</h1>
-<h5>By: Ashwin Paudel</h5>
+<h4><strong>Code: </strong>165745</h4>
 <hr>
+<div class="imageDiv">
+    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700" alt="" style="text-align: center"/>
+    <img class="mySlides" src="../Images/Calculator2.png" height="375" width="700" alt="" style="text-align: center"/>
+    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700" alt="" style="text-align: center"/>
+    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700" alt="" style="text-align: center"/>
+    <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+    <a class="next" onclick="plusDivs(1)">&#10095;</a>
+</div>
 <br>
-<div>
-    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700"/>
-    <img class="mySlides" src="../favicon_io/favicon.ico" height="375" width="700"/>
-    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700"/>
-    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700"/>
-</div>
-<p>The Unique calculator is the fastest most reliable calculator, it is a website based calculator that takes little to no storage. Whenever you are in a pinch use the Unique calculator to do anything from percents to decimals, from 10 digit mass calculations to basic subtraction, the Unique calculator is ready for anything you throw at it!</p>
+<hr>
 <div class="extension-description">
-    <button onclick="plusDivs(-1)">&#10094;</button>
-    <button onclick="plusDivs(1)">&#10095;</button>
+    <h2>Information</h2>
+    <br>
+<h5>The Unique calculator is the fastest most reliable calculator, it is a website based calculator that takes little to no storage. Whenever you are in a pinch use the Unique calculator to do anything from percents to decimals, from 10 digit mass calculations to basic subtraction, the Unique calculator is ready for anything you throw at it!</h5>
+</div>
+<div class="extension-info">
+    <div class="vertical-line" style="height: 380px;"></div>
+    <h2>Additional Information</h2>
+    <br>
+    <h4><a href="https://www.google.com">Visit Website</a></h4>
+    <h4><strong>Version: </strong> 1.25</h4>
+    <h4><strong>Last Updated: </strong>Sep 4, 2020</h4>
+    <br>
+<!--Comment the privacy policy line out if developer doesn't have -->
+    <h4><a href="https://www.google.com/">Privacy Policy</a></h4>
+    <h4><a href="https://www.google.com/">Contact Developer</a></h4>
+    <br>
+    <br>
+    <h4><a href="https://www.google.com" style="color: red">Report Extension</a></h4>
 </div>
 
-<pre></pre>
-<pre></pre>
 </body>
-<script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
 
+<script>
+    let slideIndex = 1;
+    showDivs(slideIndex);
     function plusDivs(n) {
         showDivs(slideIndex += n);
     }
-
     function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
+        let i;
+        let x = document.getElementsByClassName("mySlides");
         if (n > x.length) {slideIndex = 1}
         if (n < 1) {slideIndex = x.length}
         for (i = 0; i < x.length; i++) {

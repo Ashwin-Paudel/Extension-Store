@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed39f821-f102-4710-9846-d91a258bb34e" name="Default Changelist" comment="Favicon, Search bar, menu bar">
-      <change afterPath="$PROJECT_DIR$/CSS/Extensions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Calculator2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Extension Store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Extension Store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Extensions.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Extensions.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extensions/Calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/Calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +44,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -36,17 +65,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Calculator2" />
       <recent name="$PROJECT_DIR$/Images" />
       <recent name="$PROJECT_DIR$/CSS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS" />
+      <recent name="$PROJECT_DIR$/Images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +94,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599177579221</updated>
-      <workItem from="1599177580447" duration="9524000" />
+      <workItem from="1599177580447" duration="10495000" />
+      <workItem from="1599235848881" duration="562000" />
+      <workItem from="1599236480442" duration="4624000" />
     </task>
     <task id="LOCAL-00001" summary="Favicon, Search bar, menu bar">
       <created>1599223026603</created>
@@ -80,11 +119,30 @@
       <option name="project" value="LOCAL" />
       <updated>1599223162600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Favicon, Search bar, menu bar">
+      <created>1599232013540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599232013540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -105,13 +163,18 @@
       <screen x="0" y="25" width="1440" height="798" />
     </state>
     <state x="510" y="151" key="Github.UntrackedFilesDialog/0.25.1440.798@0.25.1440.798" timestamp="1599219543472" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1599219311477">
+    <state x="503" y="155" key="RollbackChangesDialog" timestamp="1599232009174">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599219311477" />
-    <state x="640" y="160" key="Vcs.Push.Dialog.v2" timestamp="1599223093857">
-      <screen x="0" y="25" width="1440" height="800" />
+    <state x="503" y="155" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599232009174" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1599236453330">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599236453330" />
+    <state x="640" y="152" key="Vcs.Push.Dialog.v2" timestamp="1599232201294">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="640" y="152" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599232201294" />
     <state x="640" y="160" key="Vcs.Push.Dialog.v2/0.25.1440.800@0.25.1440.800" timestamp="1599223093857" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599219684318">
       <screen x="0" y="0" width="1440" height="900" />

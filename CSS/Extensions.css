@@ -1,10 +1,106 @@
 .mySlides {
-    float: left;
     display: none;
 }
 .extension-description {
-    float: none;
+    width: 75%;
+    text-align: left;
+    left: 0;
+    float: left;
+}
+.extension-info {
+    width: 25%;
+    right: 0;
+    float: right;
+}
+div.vertical-line{
+    width: 0px; /* Use only border style */
+    height: 100%;
+    float: left;
+    border: 1px inset; /* This is default border style for <hr> tag */
+    margin: -4%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
 }
 * {
     font-family: 'SF-Pro-Display', sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #fff34d;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #fcef47;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+.imageDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
