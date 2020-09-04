@@ -1,28 +1,38 @@
+<!--Copyright © 2020 Unique Developers-->
+<!--Special thanks to Ashwin Paudel-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Unique Extension</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unique Extension Store</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/master.css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon_io/favicon.ico"/>
 </head>
 <body>
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">Create an Extension</a>
+    <a href="#contact">Report Extension</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<input id="text-search" type="text" class="form-control" placeholder="Search Extensions">
 
 <div class="row">
     <div class="column" style="background-color:#FF7F50;">
         <h3>&nbsp;Calculator<br><small>&nbsp;165745</small></h3>
         <a href="Extensions/Calculator.html">
-        <img src="Images/Calculator.png" width="350" height="175" alt="Calculator">
-            <br>
-            <button>More Information</button>
+        <img src="Images/Calculator.png" alt="Click to find out more about this extension">
         </a>
     </div>
     <div class="column" style="background-color:#ffe600;">
         <h3>&nbsp;Paper.io<br><small>&nbsp;165745</small></h3>
         <a href="Extensions/Calculator.html">
             <img src="Images/Calculator.png" width="350" height="175" alt="Calculator">
-            <br>
-            <button>More Information</button>
         </a>
     </div>
     <div class="column" style="background-color:#bbb;">
@@ -32,4 +42,18 @@
 </div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+    jQuery.fn.highlight=function(e){return this.each(function(){!function e(i,n){var t=0;if(3==i.nodeType){var h=i.data.toUpperCase().indexOf(n);if(h>=0){var o=document.createElement("span");o.className="highlight";var r=i.splitText(h),d=(r.splitText(n.length),r.cloneNode(!0));o.appendChild(d),r.parentNode.replaceChild(o,r),t=1}}else if(1==i.nodeType&&i.childNodes&&!/(script|style) /i.test(i.tagName))for(var a=0;a<i.childNodes.length;++a)a+=e(i.childNodes[a],n);return t}(this,e.toUpperCase())})},jQuery.fn.removeHighlight=function(){return this.find("span.highlight").each(function(){var e=this.parentNode;e.replaceChild(this.firstChild,this),function e(i){for(var n=0,t=i.childNodes,h=t.length;n<h;n++){var o=t[n];if(1!=o.nodeType){if(3==o.nodeType){var r=o.nextSibling;if(null!=r&&3==r.nodeType){var d=o.nodeValue+r.nodeValue;new_node=i.ownerDocument.createTextNode(d),i.insertBefore(new_node,o),i.removeChild(o),i.removeChild(r),n--,h--}}}else e(o)}}(e)}).end()},$(function(){$("#text-search").bind("keyup change",function(e){var i=$(this).val();$("body").removeHighlight(),i&&$("body").highlight(i)})});
+</script>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </html>

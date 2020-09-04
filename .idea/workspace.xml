@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed39f821-f102-4710-9846-d91a258bb34e" name="Default Changelist" comment="" />
+    <list default="true" id="ed39f821-f102-4710-9846-d91a258bb34e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/master.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +17,18 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1h1TPygXWP8SIedOCUFkTtfCOSL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599177579221</updated>
-      <workItem from="1599177580447" duration="2827000" />
+      <workItem from="1599177580447" duration="6199000" />
     </task>
     <servers />
   </component>
@@ -50,9 +63,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599219724476">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599219724476" />
+    <state x="589" y="351" key="Github.ShareDialog" timestamp="1599219521845">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="589" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1599219521845" />
+    <state x="510" y="151" key="Github.UntrackedFilesDialog" timestamp="1599219543472">
+      <screen x="0" y="25" width="1440" height="798" />
+    </state>
+    <state x="510" y="151" key="Github.UntrackedFilesDialog/0.25.1440.798@0.25.1440.798" timestamp="1599219543472" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1599219311477">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599219311477" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599219684318">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1599219684318" />
   </component>
 </project>
