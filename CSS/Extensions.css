@@ -1,0 +1,10 @@
+.mySlides {
+    float: left;
+    display: none;
+}
+.extension-description {
+    float: none;
+}
+* {
+    font-family: 'SF-Pro-Display', sans-serif;
+}

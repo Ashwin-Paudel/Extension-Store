@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Calculator - Unique Extension</title>
+    <title>[Extension Name] - Unique Extension</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Extensions.css">
 </head>
 <body>
+<h1>Calculator</h1>
+<h5>By: Ashwin Paudel</h5>
+<hr>
+<br>
+<div>
+    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700"/>
+    <img class="mySlides" src="../favicon_io/favicon.ico" height="375" width="700"/>
+    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700"/>
+    <img class="mySlides" src="../Images/Calculator.png" height="375" width="700"/>
+</div>
+<p>The Unique calculator is the fastest most reliable calculator, it is a website based calculator that takes little to no storage. Whenever you are in a pinch use the Unique calculator to do anything from percents to decimals, from 10 digit mass calculations to basic subtraction, the Unique calculator is ready for anything you throw at it!</p>
+<div class="extension-description">
+    <button onclick="plusDivs(-1)">&#10094;</button>
+    <button onclick="plusDivs(1)">&#10095;</button>
+</div>
 
+<pre></pre>
+<pre></pre>
 </body>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
 </html>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed39f821-f102-4710-9846-d91a258bb34e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/Search.js" afterDir="false" />
+    <list default="true" id="ed39f821-f102-4710-9846-d91a258bb34e" name="Default Changelist" comment="Favicon, Search bar, menu bar">
+      <change afterPath="$PROJECT_DIR$/CSS/Extensions.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/Calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/Calculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -28,12 +27,15 @@
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1h1TPygXWP8SIedOCUFkTtfCOSL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,12 +57,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599177579221</updated>
-      <workItem from="1599177580447" duration="6199000" />
+      <workItem from="1599177580447" duration="9524000" />
     </task>
+    <task id="LOCAL-00001" summary="Favicon, Search bar, menu bar">
+      <created>1599223026603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599223026603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Favicon, Search bar, menu bar">
+      <created>1599223113773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599223113773</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Favicon, Search bar, menu bar">
+      <created>1599223162600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599223162600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fdsafasdf" />
+    <MESSAGE value="Favicon, Search bar, menu bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Favicon, Search bar, menu bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599219724476">
@@ -79,9 +109,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599219311477" />
+    <state x="640" y="160" key="Vcs.Push.Dialog.v2" timestamp="1599223093857">
+      <screen x="0" y="25" width="1440" height="800" />
+    </state>
+    <state x="640" y="160" key="Vcs.Push.Dialog.v2/0.25.1440.800@0.25.1440.800" timestamp="1599223093857" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599219684318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1599219684318" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1599230558744">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599230558744" />
   </component>
 </project>
